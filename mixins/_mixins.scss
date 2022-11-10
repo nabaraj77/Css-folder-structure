@@ -1,0 +1,14 @@
+//Extra small devices
+
+@mixin for-extra-small-screen {
+  @media only screen and (max-width: $xs) {
+    //Code Here
+  }
+}
+
+//For small devices
+@mixin for-small-screen {
+  @media only screen and (max-width: $sm) {
+    //Code Here
+  }
+}
